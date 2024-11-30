@@ -1,0 +1,34 @@
+<?xml version ="1.0" encoding ="UTF-8"?>
+
+
+<!DOCTYPE Books[
+    <!ELEMENT Book (title, author, price)>
+    <!ELEMENT title (#PCDATA)>
+    <!ATTLIST title id (CDATA) "1001">
+    <!ELEMENT price (#PCDATA)>
+     <!ENTITY valUE1 "1000">
+    <!ENTITY valUE2 "1100">
+    <!ENTITY valUE3 "1200">
+    <!ELEMENT author (#PCDATA)>
+  
+    
+
+]>
+<Books>
+    <Book>
+        <title>xml</title>
+        <author>justin</author>
+        <price>1000</price>
+    </Book>
+
+    <Book>
+        <title>LARVAl</title>
+        <author>unknown</author>
+        <price>1100</price>
+    </Book>
+    <Book>
+        <title>PHP</title>
+        <author>unknown</author>
+        <price>1200</price>
+    </Book>
+</Books>
